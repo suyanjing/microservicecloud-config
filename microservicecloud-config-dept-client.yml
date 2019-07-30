@@ -49,9 +49,9 @@ mybatis:
 
 spring:
   profiles: test
-   application:
+  application:
     name: microservicecloud-config-dept-8001
-   datasource:
+  datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
     url: jdbc:mysql://localhost:3306/cloudDB02              # 数据库名称
